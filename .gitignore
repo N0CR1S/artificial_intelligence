@@ -1,0 +1,14 @@
+# environment
+venv/
+__pycache__/
+*.pyc
+
+# big or private files: share weights via Releases / Hugging Face instead
+*.pt
+*.tmp
+train.txt
+train_old.txt
+tokens.npy
+books/
+*.pdf
+files.txt
